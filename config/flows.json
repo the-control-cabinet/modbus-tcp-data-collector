@@ -1,0 +1,34 @@
+[
+  {
+    "id": "example-modbus-flow",
+    "type": "tab",
+    "label": "Modbus TCP Collector",
+    "disabled": false,
+    "info": "Example flow – import into Node-RED after installing node-red-contrib-modbus"
+  },
+  {
+    "id": "modbus-client-1",
+    "type": "modbus-client",
+    "name": "Local simulator",
+    "clienttype": "tcp",
+    "bufferCommands": true,
+    "stateLogEnabled": false,
+    "queueLogEnabled": false,
+    "tcpHost": "127.0.0.1",
+    "tcpPort": "1502",
+    "tcpType": "DEFAULT",
+    "serialPort": "/dev/ttyUSB0",
+    "serialType": "RTU-BUFFERD",
+    "serialBaudrate": "9600",
+    "serialDatabits": "8",
+    "serialStopbits": "1",
+    "serialParity": "none",
+    "serialConnectionDelay": "100",
+    "unit_id": "1",
+    "commandDelay": "1",
+    "clientTimeout": "1000",
+    "reconnectOnTimeout": true,
+    "reconnectTimeout": "2000",
+    "parallelUnitIdsAllowed": true
+  }
+]

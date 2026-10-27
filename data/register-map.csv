@@ -1,0 +1,5 @@
+point,register_0_based,ref_4xxxx,function_codes,data_type,scale,units,access,raw_seen,engineering_value
+Temperature,0,40001,03/06,UINT16,0.1,degC,R/W,500,50.0
+Voltage,1,40002,03,UINT16,0.1,V,R,1405,140.5
+Sensor 3,2,40003,03,UINT16,1,raw,R,225,225
+Spare,3-9,40004-40010,03,UINT16,,,R,0,
